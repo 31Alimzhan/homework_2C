@@ -39,6 +39,8 @@ string[]array = {"nulevoy","Monday - working day","Tuesday - working day","Wedne
                   "Thursday - working day","Friday - working day","Saturday - Relax take it easy","Sanday - Relax take it easy"};       // объявление массива (string)
 // можно было просто  ввести данные  (readln) и применяя условия определить день выходной или нет, но здесь применен массив так как тема семинара массивы
 
+// элемент под названием нулевой в массиве присутствует для удобства
+
 int Readday()                            // метод с пустым аргументом можно было и без него но тема урока такова что решил его использовать
 {
     Console.WriteLine("Введите номер дня недели");
